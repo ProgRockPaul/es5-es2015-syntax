@@ -37,9 +37,13 @@ var prism = {
   l: 5,
   w: 8
 }
-//rectagular prism area, even though we don't have a height we can enter one
+//rectagular prism area, even though we don't have a height we can enter one as an arguement in the function
 function rectPrismArea({l, w, h = 10}){
   return l * w * h;
+  // we can use height inside of this function.
 }
 
 console.log(rectPrismArea(prism));
+//400
+
+//this is great because we can set default values to things without being so verbose.
